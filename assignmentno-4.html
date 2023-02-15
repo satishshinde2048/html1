@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+        <style>
+            th,td{
+                border: 1px solid black;
+            }
+        </style>
+        <link href="./index3.css" rel="stylesheet" >
+    </head>
+    </head>
+    <body>
+        <header class="header1"><nav><h1>Portfolio</h1></nav></header>
+        <section class="sec1">
+            <h4><span style="color: red;"> Hey !</span> I am</h4>
+            <h1 style="font-size: 60px;">AlmaBetter</h1>
+            <h4>I am <span style="color: yellow;">undergraduate student</span> </h4>
+        </section>
+        <section id="aboutme" >
+            <div>
+                <div style="width: 200px;margin:0 auto;">
+                <img class="aboutmeimg"  src="./Photo.jpg" alt="profile image" >
+            </div>
+        </div>
+            <div class="aboutme-box">
+            <h1 style="color: blue;text-decoration: underline;">About Me</h1>
+            <p><b>Name :</b><span class="span3"> AlmaBetter</span></p>
+            <p><b>College :</b> <span class="span3">Aligarh Muslim University</span></p>
+            <p><b>Graduation Year :</b> <span class="span3">2023</span></p>
+            <p><b>CGPA :</b> <span class="span3">9.0</span></p>
+            <p><b>Email :</b><a href="mailto:someone@example.com"><span class="span3">almabetteradminssion@gmail.com</span></a></p>
+            <p><b>Summary :</b>
+            <p><span class="span3">Experienced Developer, Team Player and a Leader with a demonstrated <br>history of 
+                working in startups. Strong engineering professional with a <br>Bachelor of Technology 
+                (BTech) focused in Computer Science from <br>National Institute of Technology.</span></p>
+        </div>
+        </section>
+        <hr>
+        <section id="education">
+            <h2>Education</h2>
+            <table>
+              <tr>
+                <th>College</th>
+                <th>Course</th>
+                <th>Percentage / CGPA</th>
+                <th>Duration</th>
+              </tr>
+              <tr>
+                <td>Aligarh Muslim University</td>
+            <td >B.tech</td>
+            <td >9.0 CPI </td>
+            <td >2019-2023</td>
+              </tr>
+            <tr> 
+                <td>Aligarh Muslim University</td>
+                <td>Secondary School</td>
+                <td>85%</td>
+                <td>2016-2018</td>
+            </tr>
+            <tr>
+                <td>City School</td>
+                <td>High School</td>
+                <td>10 CGPA</td>
+                <td>2014-2016</td>
+            </tr>
+            </table>
+        </section>
+        <hr>
+        <section id="skills">
+            <h2 >Skills</h2>
+                  <ol class="skills-topic">
+                    <li >Languages</li>
+                    <ol class="skills-topic1">
+                        <li >C++</li>
+                        <li >Python</li>
+                        <li >Javascript</li>
+                    </ol>
+                    <li >Devlopement</li>
+                    <ol class="skills-topic1">
+                        <li >HTML</li>
+                        <li >CSS</li>
+                        <li >Bootsrap</li>
+                    </ol>
+                    <li >Tools And Softwere</li>
+                    <ol class="skills-topic1">
+                        <li >VS Code</li>
+                        <li >Postman</li>
+                        <li >Git</li>
+                    </ol>
+                  </ol>      
+        </section>
+            <section  id="contact">
+                <div style="display: flex;">
+                <section style="width: 50%;">
+                <div style="padding:0rem 3rem ;">
+            <p><b>Address :</b> ABC , India</p>
+            <p><b>Email :</b><a href="mailto:someone@example.com"><span class="p1">almabetteradminssion@gmail.com</span></a></p>
+            <p><b>Mobile No. :</b> 9876543210</p>
+            <div>
+            <ul id="social-platform">
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Twitter</li>
+                <li>Linken</li>
+            </ul>
+            </div>
+        </section>
+        <section>
+            <section style="width: 50%;">
+            <form>
+            <fieldset>
+            <legend>Drop a Message</legend>
+            <div>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" size="30" maxlength="100"/><br><br>
+            </div>
+            <div>
+            <lable for="email">Email:</lable><br>
+            <input type="email" id="email" name="email" size="30" maxlength="100" ><br><br>
+            </div>
+            <div>
+            <lable for="social">Seleect Your profession</lable><br>
+            <select  name="social media" id="profession-select">
+                <option value="google">student</option>
+                <option value="instagram">teacher</option>
+                <option value="facebook">professor</option>
+            </select><br>
+        </div>
+        <div>
+            <p>comments:<br>
+                <textarea name="text" id="comment" rows="4" cols="45" ></textarea>
+            </div>
+            <div>
+                <p>Whould you like again?<br>
+                    <input type="radio" name="button" value="yes">yes
+                    <input type="radio" name="button" value="no">no
+                    <input type="radio" name="button" value="may be">may be
+                </p>
+            </div>
+                <input type="submit" class="btn" name="button" value="send message">
+        </fieldset>
+    </form>
+        </section>
+    </div>
+        </section>
+        <footer>
+            <P>Copyright &copy;2022 All rights reserved</P>
+        </footer>
+    </body>
+</html>

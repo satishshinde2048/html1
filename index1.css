@@ -1,0 +1,27 @@
+.header1{
+    color: rgba(239, 232, 232,1);
+    background-color: rgba(13, 13, 13,1);
+}
+.sec1{
+    background-color: rgba(222, 14, 128, 0.4);
+    color: rgba(239, 232, 232,1);
+}
+.span1{
+    color:red;
+}
+.span2{
+    color: blue;
+}
+.span3{
+    color: rgba(0, 0, 0, 0.5);
+}
+.p1{
+    color: rgba(239, 232, 232,1);
+}
+footer{
+    color: rgba(239, 232, 232,1);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.span4{
+    background-color: blue;
+}
