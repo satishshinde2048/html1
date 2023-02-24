@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    width: 100%;
+    margin: 0;
+    padding: 0.2rem;
+    background-color: rgba(0,0,0,0.2);
+    color: rgb(243, 240, 240);
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h2{
+    font-family: bold;
+    /* font-size: 20px; */
+}
+nav li{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 17px;
+   font-weight: bold;
+}
+nav li a{
+    color: rgb(243, 240, 240);
+    text-decoration: none;
+}
+nav ul{
+    padding-right: 5rem;
+}
+#header{
+    width: 100%;
+    background: url('https://img.freepik.com/free-photo/abstract-background-dynamic-pattern-geometric-texture-modern-triangles_181020-3117.jpg?w=740');
+    color: white;
+    height: 80vh;
+    padding: 100px 0rem;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#header h1{
+    font-size: 4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+#header h4{
+    padding-top: 1rem;
+    font-size: 2rem;
+}

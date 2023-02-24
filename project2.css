@@ -1,0 +1,328 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgba(0,0,0,0.2);
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: fixed;
+}
+nav ul{
+    padding-right: 5rem;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+nav h3{
+    font-size: 22px;
+    font-weight: bolder;
+}
+#header{
+    margin: 0;
+    width: 100%;
+    background: url('https://img.freepik.com/free-photo/abstract-background-dynamic-pattern-geometric-texture-modern-triangles_181020-3117.jpg?w=740');
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0rem;
+}
+#header h4{
+ font-size: 30px;
+ font-weight: bold;
+ padding-top: 2rem;
+}
+#header h1{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 2rem;
+}
+#aboutme{
+    padding: 5rem;
+    display: flex;
+}
+.about-img img{
+    height: 450px;
+    width: 300px;
+    padding-left: 3rem;
+}
+.about-me{
+    padding-left: 2rem;
+    background-color: rgba(255, 255, 255,0.9);
+}
+.about-me p{
+       font-size: 18px;
+       font-family: bold;
+       color: rgba(13, 13, 13,0.4);
+}
+.about-me p span{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.about-me h1{
+    font-size: 35px;
+    font-weight: bolder;
+}
+#education{
+ /* width: 100%; */
+ background: url("https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg?t=st=1654960329~exp=1654960929~hmac=3c3ad83c63af7a6266ea102767868f4396887da23efe2aad31a874b32ddd0e0c&w=740");
+ height: 70vh;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding: 4rem;
+}
+#education h1{
+    text-align: center;
+    padding-top: 80px;
+    font-size: 50px;
+    font-weight: bold;
+    padding-right: 8rem;
+}
+ #education table{
+    padding-left: 0.7rem;
+}
+#education table tr th{
+    border: black solid 1px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 270px;
+    border-width: 15px;
+}
+#education table tr td{
+    border: black solid 2px;
+    height: 20px;
+    text-align: center;
+    height: 40px;
+    
+}
+#skills{
+    padding-top: 1.5rem;    
+}
+.skills1 ul{
+    display: flex;
+    justify-content: space-between;
+}
+#skills h1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    padding-right: 10rem;
+}
+ul li{
+    font-size: 25px;
+    font-weight: bold;
+    /* list-style-type: none; */
+}
+ol li{
+    font-size: 17px;
+    font-weight: normal;
+    
+}
+.li1{
+    color: red;
+    padding-left: 5rem;
+    list-style-type: none;
+}
+.li2{
+    color: red;
+    padding-right: 10rem;
+    padding-left: 5rem;
+    list-style-type: none;
+}
+.li3{
+    color: red;
+    padding-right: 7rem;
+    padding-left: 5rem;
+    list-style-type: none;
+}
+ol li p{
+    display: inline-block;
+}
+.cpp-bar{
+    height: 20px;
+    width: 300px;
+    background-color: rgba(35, 32, 32,0.1);
+    border-radius: 10px;
+}
+.cpp-bar div{
+    height: 20px;
+    width: 210px;
+    background-color:blue;
+    border-radius: 10px;
+}
+.python-bar{
+    height: 20px;
+    width: 300px;
+    background-color: rgba(35, 32, 32,0.1);
+    border-radius: 10px;
+}
+.python-bar div{
+    height: 20px;
+    width: 120px;
+    background-color:blue;
+    border-radius: 10px;
+}
+.js-bar{
+    height: 20px;
+    width: 300px;
+    background-color: rgba(35, 32, 32,0.1);
+    border-radius: 10px;
+}
+.js-bar div{
+    height: 20px;
+    width: 120px;
+    background-color:blue;
+    border-radius: 10px;
+}
+.html-bar{
+    height: 20px;
+    width: 300px;
+    background-color: rgba(35, 32, 32,0.1);
+    border-radius: 10px;
+}
+.html-bar div{
+    height: 20px;
+    width: 150px;
+    background-color:blue;
+    border-radius: 10px;
+}
+.css-bar{
+    height: 20px;
+    width: 300px;
+    background-color: rgba(35, 32, 32,0.1);
+    border-radius: 10px;
+}
+.css-bar div{
+    height: 20px;
+    width: 150px;
+    background-color:blue;
+    border-radius: 10px;
+}
+.reactjs-bar{
+    height: 20px;
+    width: 300px;
+    background-color: rgba(35, 32, 32,0.1);
+    border-radius: 10px;
+}
+.reactjs-bar div{
+    height: 20px;
+    width: 210px;
+    background-color:blue;
+    border-radius: 10px;
+}
+.figma-bar{
+    height: 20px;
+    width: 300px;
+    background-color: rgba(35, 32, 32,0.1);
+    border-radius: 10px;
+}
+.figma-bar div{
+    height: 20px;
+    width: 210px;
+    background-color:blue;
+    border-radius: 10px;
+}
+.postman-bar{
+    height: 20px;
+    width: 300px;
+    background-color: rgba(35, 32, 32,0.1);
+    border-radius: 10px;
+}
+.postman-bar div{
+    height: 20px;
+    width: 150px;
+    background-color:blue;
+    border-radius: 10px;
+}
+.git-bar{
+    height: 20px;
+    width: 300px;
+    background-color: rgba(35, 32, 32,0.1);
+    border-radius: 10px;
+}
+.git-bar div{
+    height: 20px;
+    width: 150px;
+    background-color:blue;
+    border-radius: 10px;
+}
+ol li{
+    padding-right: 3rem;
+}
+.para4{
+    padding-left: 14rem;
+}
+.para9{
+    padding-left: 15.5rem;
+}
+.para5{
+    padding-left: 15rem;
+}
+.para1{
+    padding-left: 15rem;
+}
+.para2{
+    padding-left: 14rem;
+}
+.para3{
+    padding-left: 13rem;
+}
+.para6{
+    padding-left: 14rem;
+}
+.para7{
+    padding-left: 13.7rem;
+}
+.para8{
+    padding-left: 13rem;
+}
+#project{
+    padding-top: 2rem;
+}
+#project h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    padding-right: 10rem;
+}
+#project p{
+    text-align: center;
+    padding-right: 10rem;
+    padding-bottom: 15px;
+}
+.project1{
+    display: grid;
+    grid-template: repeat(2,200px) / repeat(3,410px);
+    gap: 2rem;
+    justify-items: stretch;
+    align-items: stretch;
+    padding-left: 0;
+}
+.project1 div img{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
