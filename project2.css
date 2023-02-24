@@ -326,3 +326,83 @@ ol li{
     background-position: center;
     background-size: cover;
 }
+#contact{
+    padding-top: 2rem;
+    background-color: rgba(0, 0, 0.0.5);
+}
+/* #contact div{
+    background-color: rgba(0, 0, 0.0.5);
+} */
+#contact h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    padding-right: 10rem;
+}
+.contact1{
+    display: grid;
+    grid-template: repeat(2,200px) / repeat(2,200px);
+    gap: 2rem;
+    align-items: center;
+    justify-items: center;
+    padding-left: 4rem;
+}
+.contact1 div{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(18, 17, 17,0.1);
+    align-self: center;
+}
+.icon{
+    display: flex;
+    padding: 2rem 2rem;
+    padding-left: 4rem;
+}
+.icon div{
+    padding-left: 1.5rem;
+}
+.icon div img{
+    height: 50px;
+    width: 50px;
+    border: 10px solid black;
+    border-radius: 100%;
+}
+.contact{
+    display: flex;
+    
+}
+.form{
+    padding-left: 5rem;
+    width: 100%;
+    padding-right: 7rem;
+}
+.form div{
+    padding-left: 5rem;
+}
+#footer{
+    padding-top: 3rem;
+}
+
+#footer div{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+#footer div p{
+    padding-left: 43%;
+    padding-top: 1.2rem;
+}
+.contact1 div .p1{
+    padding-left: 4.5rem;
+    padding-top: 2rem;
+    font-size: 17px;
+    font-weight: bold;
+}
+.contact1 div .p2{
+    padding-left: 3rem;
+}
+.contact1 div .p3{
+    padding-left: 0.8rem;
+}
