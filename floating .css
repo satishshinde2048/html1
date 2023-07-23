@@ -1,0 +1,17 @@
+.lm{
+    height: 200px;
+    width: 300px;
+    float:left;
+}
+.box{
+    height: 300px;
+    width: 400px;
+    background-color: red;
+    border: 2px solid black;
+    margin: 2px;
+    /* display:inline-block; */
+    float: right;
+}
+.ln{
+    clear: both;
+}

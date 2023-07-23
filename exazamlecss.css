@@ -1,0 +1,168 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0,0,0,0.2);
+    color: rgb(243, 240, 240);
+    margin: 0px;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    position: fixed;
+}
+nav ul{
+    padding-right: 5rem;
+}
+nav ul li{
+    display: inline-block;
+    color: rgb(243, 240, 240);
+    font-size: 17px;
+    font-weight: bold;
+    padding:0.5rem 1rem;
+}
+.info{
+    text-align: center;
+    color: white;
+    padding-top: 5rem;
+    background: url('https://img.freepik.com/free-photo/abstract-background-dynamic-pattern-geometric-texture-modern-triangles_181020-3117.jpg?w=740');
+    width: 100%;
+    height: 80vh;
+    padding: 100px 0rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+.info h4{
+    padding-top: 70px;
+    font-size: 2rem;
+}
+#aboutme{
+    padding: 5rem;
+    display: grid;
+    grid-template-rows: 30rem;
+    grid-template-columns: 24rem 35rem;
+    align-items: stretch;  
+    justify-items: stretch;
+    justify-content: center;
+}
+.aboutme-text {
+    color: #999;
+    /* width: 70%; */
+    padding: 20px;
+    font-size: 18px;
+}
+/* #aboutme-img img{
+    height:480px ;
+    width: 100%;
+} */
+.aboutme-text strong{
+    color: #000;
+}
+#education{
+background:  url("https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg?t=st=1654960329~exp=1654960929~hmac=3c3ad83c63af7a6266ea102767868f4396887da23efe2aad31a874b32ddd0e0c&w=740");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+display: grid;
+justify-content: center;
+padding: 150px 5%;
+}
+table{
+    width: 100%;
+
+}
+tr ,th, td{
+    border: 2px solid black;
+    text-align: center;
+    height: 40px;
+    padding: 0 1rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+
+}
+th{
+    background-color: #000;
+    color:white;
+}
+#skills{
+    padding: 50px 5%;
+}
+.skills-topic{
+    display: flex;
+    justify-content: space-evenly;
+}
+ul.skills-topic{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.skills-topic li{
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+    width: 25%;
+    text-align: center;
+}
+.skills-topic li ol li{
+    color: #000;
+    width: 100%;
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 1rem;
+}
+.skills-name{
+    display: flex;
+    justify-content: space-between;
+}
+.progressbar {
+    border-radius: 8px;
+    width: 100%;
+    background: #e6e6e6;
+  }
+  .progressbar>div {
+    background: #3e64ff;
+    background-image: linear-gradient(to right, #3e64ff,#190a9c);
+    height: 20px;
+    border-radius: 10px;
+    width: 40%;
+  }
+  div.c-plus{
+    width: 70%;
+}
+div.html{
+    width: 90%;
+}
+.projects{
+    display: grid;
+    grid-template: repeat(2,200px)/repeat(3,320px);
+    justify-items: stretch;
+    align-items: stretch;
+    justify-content: space-evenly;
+    row-gap: 20px;
+}
+.box img{
+    width: 100%;
+        height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 40px;
+    margin-top: 0;
+    padding:0.5rem 1rem;
+    text-align: center;
+}

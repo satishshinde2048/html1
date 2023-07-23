@@ -1,0 +1,42 @@
+body{
+    height: 200vh;
+}
+.mbox{
+    border: 2px solid gray;
+    height: 400px;
+    width: 300px;
+}
+.box1{
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    /* z-index: -1; */
+    /* position: relative;
+    top: 20px;
+    left:30px */
+    /* position: absolute;
+    top: 108px;
+    left: 58px; */
+    /* position: fixed;
+    top: 100px;
+    left: 50px; */
+    /* position:sticky;
+    top: 100px;
+    left: 50px; */
+    /* position:static;
+    top: 100px;
+    left: 50px; */
+
+}
+.box2{
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+    /* z-index: 10; */
+}
+.box3{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    
+}
